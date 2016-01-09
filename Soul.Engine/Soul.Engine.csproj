@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{90A08582-D4C2-4180-9DE0-CDD284A70B5B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Soul.Engine</RootNamespace>
+    <AssemblyName>Soul.Engine</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MonoGame.Framework, Version=3.4.0.459, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\MonoGame.Framework.WindowsDX.3.4.0.459\lib\net40\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clock.cs" />
+    <Compile Include="Command\Command.cs" />
+    <Compile Include="Command\CommandArguments.cs" />
+    <Compile Include="Command\CommandAttribute.cs" />
+    <Compile Include="Extentions\ThreadSafe.cs" />
+    <Compile Include="Managers\CommandManager.cs" />
+    <Compile Include="Common\IDrawable.cs" />
+    <Compile Include="Common\IGameComponent.cs" />
+    <Compile Include="Common\IUpdatable.cs" />
+    <Compile Include="Common\Static.cs" />
+    <Compile Include="Extentions\Atribute.cs" />
+    <Compile Include="Extentions\Command.cs" />
+    <Compile Include="Extentions\Delegate.cs" />
+    <Compile Include="Extentions\Dictionary.cs" />
+    <Compile Include="Extentions\String.cs" />
+    <Compile Include="Extentions\Type.cs" />
+    <Compile Include="GameService.cs" />
+    <Compile Include="Input\Mouse.cs" />
+    <Compile Include="Input\VirtualKeyboard.cs" />
+    <Compile Include="LastObjectData.cs" />
+    <Compile Include="Managers\ScriptManager.cs" />
+    <Compile Include="NativeMethods.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scripts\IScript.cs" />
+    <Compile Include="Scripts\Item Script.cs" />
+    <Compile Include="Serialization\BinaryInput.cs" />
+    <Compile Include="Serialization\BinaryOutput.cs" />
+    <Compile Include="Serialization\EncodingAttribute.cs" />
+    <Compile Include="Serialization\ISerializable.cs" />
+    <Compile Include="Serialization\Serializer.cs" />
+    <Compile Include="Common\Singleton.cs" />
+    <Compile Include="Threading\ThreadAction.cs" />
+    <Compile Include="Window\SoulGame.cs" />
+    <Compile Include="Utilities\File Data\IFileCryptography.cs" />
+    <Compile Include="Utilities\File Data\TextFileData.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Soul.Engine.Scripting\Soul.Engine.Scripting.csproj">
+      <Project>{3d7aa1db-fdce-4d63-9a54-7cc9f11e8854}</Project>
+      <Name>Soul.Engine.Scripting</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

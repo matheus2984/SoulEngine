@@ -1,0 +1,8 @@
+C:\Users\Ademario\Desktop\PokemonSoul\Soul.Engine.Scripting\bin\Debug\Soul.Engine.Scripting.dll
+C:\Users\Ademario\Desktop\PokemonSoul\Soul.Engine.Scripting\bin\Debug\Soul.Engine.Scripting.pdb
+C:\Users\Ademario\Desktop\PokemonSoul\Soul.Engine.Scripting\bin\Debug\Mono.CSharp.dll
+C:\Users\Ademario\Desktop\PokemonSoul\Soul.Engine.Scripting\bin\Debug\CSScriptLibrary.xml
+C:\Users\Ademario\Desktop\PokemonSoul\Soul.Engine.Scripting\obj\Debug\Soul.Engine.Scripting.csprojResolveAssemblyReference.cache
+C:\Users\Ademario\Desktop\PokemonSoul\Soul.Engine.Scripting\obj\Debug\Soul.Engine.Scripting.dll
+C:\Users\Ademario\Desktop\PokemonSoul\Soul.Engine.Scripting\obj\Debug\Soul.Engine.Scripting.pdb
+C:\Users\Ademario\Desktop\PokemonSoul\Soul.Engine.Scripting\bin\Debug\CSScriptLibrary.dll

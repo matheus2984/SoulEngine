@@ -1,0 +1,13 @@
+C:\Users\Ademario\Desktop\PokemonSoul\Soul.Engine.Data\bin\Debug\Soul.Engine.Data.dll
+C:\Users\Ademario\Desktop\PokemonSoul\Soul.Engine.Data\bin\Debug\Soul.Engine.Data.pdb
+C:\Users\Ademario\Desktop\PokemonSoul\Soul.Engine.Data\obj\Debug\Soul.Engine.Data.dll
+C:\Users\Ademario\Desktop\PokemonSoul\Soul.Engine.Data\obj\Debug\Soul.Engine.Data.pdb
+C:\Users\Ademario\Desktop\PokemonSoul\Soul.Engine.Data\obj\Debug\Soul.Engine.Data.csprojResolveAssemblyReference.cache
+C:\Users\Ademario\Desktop\PokemonSoul\Soul.Engine.Data\bin\Debug\NHibernate.dll
+C:\Users\Ademario\Desktop\PokemonSoul\Soul.Engine.Data\bin\Debug\FluentNHibernate.dll
+C:\Users\Ademario\Desktop\PokemonSoul\Soul.Engine.Data\bin\Debug\Iesi.Collections.dll
+C:\Users\Ademario\Desktop\PokemonSoul\Soul.Engine.Data\bin\Debug\NHibernate.xml
+C:\Users\Ademario\Desktop\PokemonSoul\Soul.Engine.Data\bin\Debug\FluentNHibernate.pdb
+C:\Users\Ademario\Desktop\PokemonSoul\Soul.Engine.Data\bin\Debug\FluentNHibernate.xml
+C:\Users\Ademario\Desktop\PokemonSoul\Soul.Engine.Data\bin\Debug\Iesi.Collections.xml
+C:\Users\Ademario\Desktop\PokemonSoul\Soul.Engine.Data\bin\Debug\MySql.Data.dll

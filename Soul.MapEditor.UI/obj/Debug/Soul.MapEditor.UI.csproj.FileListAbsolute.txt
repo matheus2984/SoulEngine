@@ -1,0 +1,11 @@
+C:\Users\Ademario\Desktop\PokemonSoul\Soul.MapEditor.UI\bin\Debug\Soul.MapEditor.UI.dll
+C:\Users\Ademario\Desktop\PokemonSoul\Soul.MapEditor.UI\bin\Debug\Soul.MapEditor.UI.pdb
+C:\Users\Ademario\Desktop\PokemonSoul\Soul.MapEditor.UI\obj\Debug\Soul.MapEditor.UI.csprojResolveAssemblyReference.cache
+C:\Users\Ademario\Desktop\PokemonSoul\Soul.MapEditor.UI\obj\Debug\Soul.MapEditor.UI.dll
+C:\Users\Ademario\Desktop\PokemonSoul\Soul.MapEditor.UI\obj\Debug\Soul.MapEditor.UI.pdb
+C:\Users\Ademario\Desktop\PokemonSoul\Soul.MapEditor.UI\bin\Debug\Microsoft.Xna.Framework.dll
+C:\Users\Ademario\Desktop\PokemonSoul\Soul.MapEditor.UI\bin\Debug\Microsoft.Xna.Framework.Game.dll
+C:\Users\Ademario\Desktop\PokemonSoul\Soul.MapEditor.UI\bin\Debug\Microsoft.Xna.Framework.Graphics.dll
+C:\Users\Ademario\Desktop\PokemonSoul\Soul.MapEditor.UI\bin\Debug\Microsoft.Xna.Framework.xml
+C:\Users\Ademario\Desktop\PokemonSoul\Soul.MapEditor.UI\bin\Debug\Microsoft.Xna.Framework.Game.xml
+C:\Users\Ademario\Desktop\PokemonSoul\Soul.MapEditor.UI\bin\Debug\Microsoft.Xna.Framework.Graphics.xml
